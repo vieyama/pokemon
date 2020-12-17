@@ -1,0 +1,43 @@
+.loading {
+    height: 48.8vh;
+    .loader {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 70%;
+        left: 50%;
+        margin: -16px 0 0 -16px;
+        background: url(../images/pokeball.png) no-repeat;
+        background-size: contain;
+        -webkit-animation: rotation 1s infinite linear;
+        -moz-animation: rotation 1s infinite linear;
+        animation: rotation 1s infinite linear;
+    }
+
+    @-webkit-keyframes rotation {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes rotation {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

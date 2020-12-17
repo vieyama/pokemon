@@ -1,0 +1,5 @@
+export { default as Loading } from './Loading'
+export { default as FilterComponent } from './FilterComponent'
+export { default as CardPokemonComponent } from './CardPokemonComponent'
+export { default as CardPokemonComponentModal } from './CardPokemonComponentModal'
+export { default as ModalCompare } from './ModalCompare'

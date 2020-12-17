@@ -1,0 +1,20 @@
+.ant-modal-wrap {
+    top: 10px;
+
+    .ant-form-item-control-input-content {
+        -ms-flex: auto;
+        flex: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .ant-checkbox-wrapper {
+        text-align: -webkit-right;
+
+        .ant-checkbox {
+            top: 2em;
+            z-index: 1;
+            right: 2px;
+        }
+    }
+}

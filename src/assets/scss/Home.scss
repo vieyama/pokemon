@@ -1,0 +1,28 @@
+.card-container {
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    .card-pokemon {
+        .ant-card-bordered {
+            border-radius: 15px;
+            min-height: 200px;
+            min-width: 186px;
+            height: 100%;
+        }
+
+        .ant-card-body {
+            padding: 15px;
+
+            h4 {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.pagination {
+    padding: 0px 50px 50px 50px;
+    .pagination-image{
+        width: 100px;
+    }
+}
